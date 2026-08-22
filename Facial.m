@@ -65,7 +65,7 @@ distances = vecnorm(projectedImages - projectedTest);
 
 [minDist, index] = min(distances);
 
-threshold = 10;
+threshold = 5000;
 
 %% STEP 6: OUTPUT
 
